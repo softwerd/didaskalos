@@ -4,6 +4,7 @@ ob_start();
  no inicializadas o capturar equivocaciones en nombres de variables ...) */
 error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 
+
 abstract class Index
 {
     public function ejecutar ()
