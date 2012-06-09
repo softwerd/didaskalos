@@ -38,20 +38,6 @@ abstract class ModelBase extends Zend_Db_Table_Abstract
      */
     public function __construct()
     {
-            /* para italleres */
-//            $this->_db = new Zend_Db_Adapter_Pdo_Mysql(array(
-//                'host'             => 'localhost',
-//                'username'         => 'oa000369',
-//                'password'         => 'DUpevi30to',
-//                'dbname'           => 'oa000369_contasoft'
-//            ));
-            /* para PH */
-//            $this->_db = new Zend_Db_Adapter_Pdo_Mysql(array(
-//                'host'             => 'localhost',
-//                'username'         => 'ig000179',
-//                'password'         => 'ti32FOfuwa',
-//                'dbname'           => 'ig000179_contasoft'
-//            ));
             /* para localhost */
         $this->_db = new Zend_Db_Adapter_Pdo_Mysql(array(
                     'host' => 'localhost',
