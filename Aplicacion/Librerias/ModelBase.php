@@ -38,7 +38,6 @@ abstract class ModelBase extends Zend_Db_Table_Abstract
      */
     public function __construct()
     {
-
         
             /* para localhost */
         $this->_db = new Zend_Db_Adapter_Pdo_Mysql(array(
